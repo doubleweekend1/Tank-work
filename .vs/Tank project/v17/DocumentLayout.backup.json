@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\30239\\Desktop\\save_unity\\Tank project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B160A2D6-8E39-061C-1873-3769A55C1A0A}|Assembly-CSharp.csproj|c:\\users\\30239\\desktop\\save_unity\\tank project\\assets\\tankfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B160A2D6-8E39-061C-1873-3769A55C1A0A}|Assembly-CSharp.csproj|solutionrelative:assets\\tankfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B160A2D6-8E39-061C-1873-3769A55C1A0A}|Assembly-CSharp.csproj|C:\\Users\\30239\\Desktop\\save_unity\\Tank project\\assets\\camerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B160A2D6-8E39-061C-1873-3769A55C1A0A}|Assembly-CSharp.csproj|solutionrelative:assets\\camerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B160A2D6-8E39-061C-1873-3769A55C1A0A}|Assembly-CSharp.csproj|C:\\Users\\30239\\Desktop\\save_unity\\Tank project\\assets\\lookatmouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B160A2D6-8E39-061C-1873-3769A55C1A0A}|Assembly-CSharp.csproj|solutionrelative:assets\\lookatmouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B160A2D6-8E39-061C-1873-3769A55C1A0A}|Assembly-CSharp.csproj|C:\\Users\\30239\\Desktop\\save_unity\\Tank project\\assets\\mymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B160A2D6-8E39-061C-1873-3769A55C1A0A}|Assembly-CSharp.csproj|solutionrelative:assets\\mymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tankfire.cs",
+              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank project\\Assets\\Tankfire.cs",
+              "RelativeDocumentMoniker": "Assets\\Tankfire.cs",
+              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank project\\Assets\\Tankfire.cs",
+              "RelativeToolTip": "Assets\\Tankfire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T07:44:33.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LookAtMouse.cs",
+              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank project\\Assets\\LookAtMouse.cs",
+              "RelativeDocumentMoniker": "Assets\\LookAtMouse.cs",
+              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank project\\Assets\\LookAtMouse.cs",
+              "RelativeToolTip": "Assets\\LookAtMouse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T08:00:53.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CamerFollow.cs",
+              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank project\\Assets\\CamerFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\CamerFollow.cs",
+              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank project\\Assets\\CamerFollow.cs",
+              "RelativeToolTip": "Assets\\CamerFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T07:06:48.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyMove.cs",
+              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank project\\Assets\\MyMove.cs",
+              "RelativeDocumentMoniker": "Assets\\MyMove.cs",
+              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank project\\Assets\\MyMove.cs",
+              "RelativeToolTip": "Assets\\MyMove.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T06:08:41.661Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
