@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B160A2D6-8E39-061C-1873-3769A55C1A0A}</ProjectGuid>
+    <ProjectGuid>{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,9 +61,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CamerFollow.cs" />
-    <Compile Include="Assets\Tankfire.cs" />
+    <Compile Include="Assets\TankChassisFollow.cs" />
     <Compile Include="Assets\LookAtMouse.cs" />
+    <Compile Include="Assets\FireManager.cs" />
+    <Compile Include="Assets\HP.cs" />
+    <Compile Include="Assets\turrent.cs" />
+    <Compile Include="Assets\BulletAttack.cs" />
+    <Compile Include="Assets\bounce_times.cs" />
+    <Compile Include="Assets\TankFire1.cs" />
     <Compile Include="Assets\MyMove.cs" />
+    <Compile Include="Assets\flexible_wall.cs" />
+    <Compile Include="Assets\TankFire2.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
