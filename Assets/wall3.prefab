@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 1444680530436275999}
   - component: {fileID: 1436901379613904017}
   - component: {fileID: 6170430553746497910}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: wall3
-  m_TagString: Untagged
+  m_TagString: Tankwall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

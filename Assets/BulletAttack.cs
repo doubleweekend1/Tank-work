@@ -37,7 +37,8 @@ public class BulletAttack : MonoBehaviour
             {
                 hp.TakeDamage(5);
             }
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            FindObjectOfType<BulletPool>().ReturnBullet(gameObject);
         }
     }
     // Update is called once per frame

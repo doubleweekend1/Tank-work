@@ -62,15 +62,19 @@
   <ItemGroup>
     <Compile Include="Assets\CamerFollow.cs" />
     <Compile Include="Assets\TankChassisFollow.cs" />
+    <Compile Include="Assets\Object_Manager.cs" />
+    <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Assets\LookAtMouse.cs" />
     <Compile Include="Assets\FireManager.cs" />
     <Compile Include="Assets\HP.cs" />
+    <Compile Include="Assets\enemyMove.cs" />
     <Compile Include="Assets\turrent.cs" />
     <Compile Include="Assets\BulletAttack.cs" />
     <Compile Include="Assets\bounce_times.cs" />
     <Compile Include="Assets\TankFire1.cs" />
     <Compile Include="Assets\MyMove.cs" />
     <Compile Include="Assets\flexible_wall.cs" />
+    <Compile Include="Assets\BulletControl.cs" />
     <Compile Include="Assets\TankFire2.cs" />
   </ItemGroup>
   <ItemGroup>
