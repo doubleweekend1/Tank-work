@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|c:\\users\\30239\\desktop\\save_unity\\tank-project\\assets\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|c:\\users\\30239\\desktop\\save_unity\\tank-project\\assets\\bounce_times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\bounce_times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\assets\\tankfire1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\tankfire1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\assets\\bulletattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\bulletattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\assets\\bulletcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\bulletcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\assets\\object_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\object_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|c:\\users\\30239\\desktop\\save_unity\\tank-project\\assets\\button0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\button0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,86 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "bounce_times.cs",
-              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\bounce_times.cs",
-              "RelativeDocumentMoniker": "Assets\\bounce_times.cs",
-              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\bounce_times.cs",
-              "RelativeToolTip": "Assets\\bounce_times.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T08:51:36.613Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "enemyMove.cs",
-              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\enemyMove.cs",
-              "RelativeDocumentMoniker": "Assets\\enemyMove.cs",
-              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\enemyMove.cs",
-              "RelativeToolTip": "Assets\\enemyMove.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAYwFkAAAAuAAAAAAAAAA==",
+              "Title": "Button0.cs",
+              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\Button0.cs",
+              "RelativeDocumentMoniker": "Assets\\Button0.cs",
+              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\Button0.cs",
+              "RelativeToolTip": "Assets\\Button0.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T14:37:52.784Z",
+              "WhenOpened": "2026-04-16T13:40:18.473Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TankFire1.cs",
-              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\TankFire1.cs",
-              "RelativeDocumentMoniker": "Assets\\TankFire1.cs",
-              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\TankFire1.cs",
-              "RelativeToolTip": "Assets\\TankFire1.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T12:02:16.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BulletAttack.cs",
-              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\BulletAttack.cs",
-              "RelativeDocumentMoniker": "Assets\\BulletAttack.cs",
-              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\BulletAttack.cs",
-              "RelativeToolTip": "Assets\\BulletAttack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwCEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T09:59:14.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BulletControl.cs",
-              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\BulletControl.cs",
-              "RelativeDocumentMoniker": "Assets\\BulletControl.cs",
-              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\BulletControl.cs",
-              "RelativeToolTip": "Assets\\BulletControl.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T13:05:41.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Object_Manager.cs",
-              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\Object_Manager.cs",
-              "RelativeDocumentMoniker": "Assets\\Object_Manager.cs",
-              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\Object_Manager.cs",
-              "RelativeToolTip": "Assets\\Object_Manager.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T12:28:32.212Z"
             }
           ]
         }

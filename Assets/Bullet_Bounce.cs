@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class Bullet_Bounce : MonoBehaviour
+public class BulletBounce : MonoBehaviour
 {
     [Header("最大反弹次数")]
     public int maxBounceCount = 4;
@@ -15,10 +15,11 @@ public class Bullet_Bounce : MonoBehaviour
 
     private Rigidbody rb;
     private Vector3 lastVelocity;
-    private bool hasBounced = false;
-
-    void Start()
+    private int inbounce;
+    void OnEnable()
     {
+        inbounce = 0;
+        Debug.Log(maxBounceCount);
         rb = GetComponent<Rigidbody>();
         lastVelocity = rb.velocity;
 
@@ -45,9 +46,16 @@ public class Bullet_Bounce : MonoBehaviour
         if (IsBounceLayer(collision.gameObject.layer))
         {
             // 计算完美反弹方向
+            if (inbounce == 1)
+            {
+                return;
+            }
             currentBounceCount++;
+            Debug.Log("bounce+1");
+            inbounce = 1;
+            Invoke("canbounce",0.05f);
             // 超过最大次数 → 销毁子弹
-            if (currentBounceCount >= maxBounceCount)
+            if (currentBounceCount > maxBounceCount)
             {
                 FindObjectOfType<BulletPool>().ReturnBullet(gameObject);
             }
@@ -63,6 +71,10 @@ public class Bullet_Bounce : MonoBehaviour
         }
     }
     // 检查是否为反弹层FindObjectOfType<BulletPool>().ReturnBullet(gameObject);
+    void canbounce()
+    {
+        inbounce = 0;
+    }
     bool IsBounceLayer(int layer)
     {
         return ((1 << layer) & bounceLayers) != 0;

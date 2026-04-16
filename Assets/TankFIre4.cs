@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class TankFire4 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -11,6 +11,10 @@ public class NewBehaviourScript : MonoBehaviour
     }
 
     // Update is called once per frame
+    public void Fire()
+    {
+        ;
+    }
     void Update()
     {
         

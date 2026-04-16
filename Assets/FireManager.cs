@@ -18,8 +18,8 @@ public class FireManager : MonoBehaviour
     // 引用你的4个开火脚本
     public TankFire1 tankFire1;
     public TankFire2 tankFire2;
-    //public TankFire3 tankFire3;
-    //public TankFire4 tankFire4;
+    public TankFire3 tankFire3;
+    public TankFire4 tankFire4;
 
     void Update()
     {
@@ -43,13 +43,13 @@ public class FireManager : MonoBehaviour
             case FireType.Fire2:
                 tankFire2.Fire();
                 break;
-            /*case FireType.Fire3:
+            case FireType.Fire3:
                 tankFire3.Fire();
                 break;
             case FireType.Fire4:
                 tankFire4.Fire();
                 break;
-            */
+            
         }
     }
 

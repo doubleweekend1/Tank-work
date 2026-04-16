@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class BulletControl : MonoBehaviour
 {
+    public string tartag;
     public float lifetime = 50f;  // ¥Ê‘⁄ ±º‰£®√Î£©
     private float timer;
     private BulletPool pool;

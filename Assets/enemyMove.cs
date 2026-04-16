@@ -5,21 +5,32 @@ using UnityEngine;
 public class enemyMove : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public float detectionRange = 20f;
-    public float wanderRange = 10f;
+    public float detectionRange = 10f;
+    public float wanderRange = 3f;
     public float triggerDistance = 2f;
     private Rigidbody rb;
     private Transform player;
     private Vector3 wanderTarget;
     private bool isWandering = true;
-
+    private List<GameObject> enemyList = new List<GameObject>();
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
         PickNewWanderTarget();
+        FindAndSaveAllEnemies();
     }
+    void FindAndSaveAllEnemies()
+    {
+        // 找到所有标签为 "Enemy" 的物体
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
+        // 清空列表并添加新找到的敌人
+        enemyList.Clear();
+        enemyList.AddRange(enemies);
+
+        Debug.Log($"找到了 {enemyList.Count} 个敌人");
+    }
     void FixedUpdate()
     {
         float distance = Vector3.Distance(transform.position, player.position);
@@ -56,6 +67,11 @@ public class enemyMove : MonoBehaviour
         // 消除朝向玩家的速度分量
             rb.velocity -= toPlayer * speedTowardPlayer;
          }
+        Vector3 toOther;
+        foreach (GameObject enemy in enemyList)
+        {
+            
+        }
 
 
 

@@ -6,6 +6,7 @@ public class BulletAttack : MonoBehaviour
 {
     // Start is called before the first frame update
     private Rigidbody rb;
+    //public string TargetTag;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -15,18 +16,18 @@ public class BulletAttack : MonoBehaviour
     {
         ///////////////
         Debug.Log("撞到了：" + collision.collider.name + " 标签：" + collision.collider.tag);
-
-        if (collision.collider.CompareTag("Untagged"))
+        //Debug.Log(TargetTag);
+        /*if (collision.collider.CompareTag("Untagged"))
         {
             Debug.Log("成功识别untagged！");
         }
         if (collision.collider.CompareTag("Enemy"))
         {
             Debug.Log("成功识别敌方坦克！");
-        }
+        }*/
         //////////////
         // 碰到敌方坦克，不产生物理效果
-        if (collision.collider.CompareTag("Enemy"))
+        if (collision.collider.CompareTag("Enemy"))//TargetTag
         {
             Debug.Log("attackhappen");
             // 禁用这次碰撞的物理效果
@@ -40,7 +41,12 @@ public class BulletAttack : MonoBehaviour
             //Destroy(gameObject);
             FindObjectOfType<BulletPool>().ReturnBullet(gameObject);
         }
+        else if (collision.collider.CompareTag("Player"))//TargetTag
+        {
+            FindObjectOfType<BulletPool>().ReturnBullet(gameObject);
+        }
     }
+
     // Update is called once per frame
     void Update()
     {

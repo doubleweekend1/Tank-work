@@ -7,11 +7,12 @@ public class HP : MonoBehaviour
     [Header("基础属性")]
     public float maxHealth = 100;
     public float currentHealth;
-
+    private int isUnbeatable;
     public float MaxHealth { get => maxHealth; set => maxHealth = value; }
 
     void Start()
     {
+        isUnbeatable = 0;
         currentHealth = MaxHealth;
     }
 
@@ -41,9 +42,21 @@ public class HP : MonoBehaviour
         }
     }*/
 
+    
+    public void BecomeUnbeatable()
+    {
+        isUnbeatable = 1;
+        Invoke("EndUnbeatable", 10f);
+    }
+
+    void EndUnbeatable()
+    {
+        isUnbeatable = 0;
+    }
     // 统一扣血方法
     public void TakeDamage(float damage)
     {
+        if (isUnbeatable == 1) return;
         currentHealth -= damage;
         currentHealth = Mathf.Max(currentHealth, 0);
 
@@ -56,7 +69,7 @@ public class HP : MonoBehaviour
     // 死亡逻辑
     void Die()
     {
-        Debug.Log("敌方坦克已被摧毁");
+        Debug.Log("已被摧毁");
         Destroy(gameObject);
     }
 }
