@@ -60,42 +60,64 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.62f3c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\EnemyBulletPool.cs" />
-    <Compile Include="Assets\CamerFollow.cs" />
-    <Compile Include="Assets\BulletPool.cs" />
-    <Compile Include="Assets\TankChassisFollow.cs" />
-    <Compile Include="Assets\TankFIre4.cs" />
-    <Compile Include="Assets\EnemyBulletAttack.cs" />
-    <Compile Include="Assets\EnemyTankShooter.cs" />
-    <Compile Include="Assets\ItemAddBounceTimes.cs" />
-    <Compile Include="Assets\TankFire3.cs" />
-    <Compile Include="Assets\ItemUnbeatable.cs" />
-    <Compile Include="Assets\LookAtMouse.cs" />
-    <Compile Include="Assets\FireManager.cs" />
-    <Compile Include="Assets\HP.cs" />
+    <Compile Include="Assets\ZZZ\EnemyBulletAttack.cs" />
+    <Compile Include="Assets\ZZZ\TankFire1.cs" />
+    <Compile Include="Assets\ACManager.cs" />
+    <Compile Include="Assets\ZZZ\ButtonExit.cs" />
+    <Compile Include="Assets\ZZZ\EnemyBulletControl.cs" />
+    <Compile Include="Assets\33\C#\Mirror Shaders\GodFX_Mirror.cs" />
+    <Compile Include="Assets\DirectlyExit.cs" />
+    <Compile Include="Assets\ScoreDisplay.cs" />
+    <Compile Include="Assets\ZZZ\BulletControl.cs" />
+    <Compile Include="Assets\ZZZ\TurrentRecoil.cs" />
+    <Compile Include="Assets\ZZZ\TankFire2.cs" />
+    <Compile Include="Assets\ZZZ\MyMove.cs" />
+    <Compile Include="Assets\ZZZ\flexible_wall.cs" />
+    <Compile Include="Assets\ZZZ\ItemWeapons.cs" />
+    <Compile Include="Assets\ZZZ\EnemyTankFire1.cs" />
+    <Compile Include="Assets\ZZZ\EnemyTankFire3.cs" />
+    <Compile Include="Assets\ExplosionFX.cs" />
+    <Compile Include="Assets\ZZZ\Bullet_Bounce.cs" />
+    <Compile Include="Assets\ZZZ\TankChassisFollow.cs" />
+    <Compile Include="Assets\UIManager.cs" />
+    <Compile Include="Assets\ZZZ\ItemUnbeatable.cs" />
+    <Compile Include="Assets\CameraState.cs" />
+    <Compile Include="Assets\ZZZ\HP.cs" />
+    <Compile Include="Assets\ZZZ\GameManage.cs" />
+    <Compile Include="Assets\ZZZ\EnemyTankShooter.cs" />
+    <Compile Include="Assets\ZZZ\TankFire3.cs" />
+    <Compile Include="Assets\ZZZ\EnemyTankFire4.cs" />
+    <Compile Include="Assets\ZZZ\TankFire4.cs" />
+    <Compile Include="Assets\ZZZZZ___ontanktestwave.cs" />
+    <Compile Include="Assets\ZZZ\GameLevelManager.cs" />
+    <Compile Include="Assets\ZZZ\EnemyBulletBounce.cs" />
+    <Compile Include="Assets\UniqueCanvas.cs" />
     <Compile Include="Assets\Button0.cs" />
-    <Compile Include="Assets\ItemWeapons.cs" />
-    <Compile Include="Assets\enemyMove.cs" />
-    <Compile Include="Assets\Bullet_Bounce.cs" />
-    <Compile Include="Assets\BulletAttack.cs" />
-    <Compile Include="Assets\TankFire1.cs" />
-    <Compile Include="Assets\TurrentRecoil.cs" />
-    <Compile Include="Assets\EnemyTankFire1.cs" />
-    <Compile Include="Assets\MyMove.cs" />
-    <Compile Include="Assets\flexible_wall.cs" />
-    <Compile Include="Assets\EnemyBulletBounce.cs" />
-    <Compile Include="Assets\BulletControl.cs" />
-    <Compile Include="Assets\ItemAddSpeed.cs" />
-    <Compile Include="Assets\TankFire2.cs" />
-    <Compile Include="Assets\EnemyBulletControl.cs" />
+    <Compile Include="Assets\ZZZ\BulletAttack.cs" />
+    <Compile Include="Assets\ZZZ\LookAtMouse.cs" />
+    <Compile Include="Assets\ZZZ\Wave.cs" />
+    <Compile Include="Assets\ZZZ\EnemyTankFire2.cs" />
+    <Compile Include="Assets\ZZZ\ItemAddBounceTimes.cs" />
+    <Compile Include="Assets\ZZZ\EnemyBulletPool.cs" />
+    <Compile Include="Assets\Explosion.cs" />
+    <Compile Include="Assets\ZZZ\BulletPool.cs" />
+    <Compile Include="Assets\ZZZ\enemyMove.cs" />
+    <Compile Include="Assets\ZZZ\CamerFollow.cs" />
+    <Compile Include="Assets\GamePause.cs" />
+    <Compile Include="Assets\ZZZ\ItemAddSpeed.cs" />
+    <Compile Include="Assets\ZZZ\FireManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\04Shader\Add_T.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\04Shader\PlayerCartoon2.shader" />
+    <None Include="Assets\04Shader\Add.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\33\C#\Mirror Shaders\GodFX_Mirror-BumpSpec.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -104,7 +126,9 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\04Shader\Alpha Double_T.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\04Shader\Alpha Double.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
@@ -443,6 +467,10 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.62f3c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
@@ -941,6 +969,70 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.62f3c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.MemoryProfiler">
+      <HintPath>Library\ScriptAssemblies\Unity.MemoryProfiler.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.MemoryProfiler.Editor.MemoryProfilerModule">
+      <HintPath>Library\ScriptAssemblies\Unity.MemoryProfiler.Editor.MemoryProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
       <Private>False</Private>
@@ -949,16 +1041,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.MemoryProfiler.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.MemoryProfiler.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
@@ -973,6 +1061,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
@@ -981,44 +1073,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Settings.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Settings.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
@@ -1029,12 +1097,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    <Reference Include="Unity.Profiling.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
