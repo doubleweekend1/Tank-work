@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraState : MonoBehaviour
 {
-    public int Camerastate=1;
+    public int Camerastate=0;
     public ScoreDisplay SD;
     // Start is called before the first frame update
     void Start()

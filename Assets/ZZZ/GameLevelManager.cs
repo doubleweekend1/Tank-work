@@ -5,19 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class GamaLevelManager : MonoBehaviour
 {
+    public UIManager UIM;
+    public ScoreDisplay LOT;
     // Start is called before the first frame update
     public int Opened_level = 1;
     void Start()
     {
+        
         Opened_level = PlayerPrefs.GetInt("UnlockedLevel", 1);
+        UIM=GameObject.Find("Canvas").GetComponent<UIManager>();
     }
     // 方法1：通过场景名称跳转
     public void LoadSceneByName(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
         /////////////////GameObject.Find("GameManager").GetComponent<GameManage>().BeginWork(1);
-        GameObject.Find("Canvas").GetComponent<UIManager>().currentlevel = 1;
-
+        UIM.currentlevel = 1;
+        UIM.ShowInGamePanel();
     }
 
     // 方法2：通过场景索引跳转（数字）
@@ -27,7 +31,8 @@ public class GamaLevelManager : MonoBehaviour
         {
             
             SceneManager.LoadScene(sceneIndex);
-            GameObject.Find("Canvas").GetComponent<UIManager>().currentlevel = sceneIndex;
+            UIM.currentlevel = sceneIndex;
+            UIM.ShowInGamePanel();
         }
         
     }

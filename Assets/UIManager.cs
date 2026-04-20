@@ -14,13 +14,22 @@ public class UIManager : MonoBehaviour
     public GameObject SetPanel;
     public int lasttime;
     public int currentlevel;
+    public GameObject Lot;
+    private ScoreDisplay LOT;//Level opened Text
+    private GamaLevelManager GLM;
     void Awake()
     {
         // 让这个UI物体在场景切换时不被销毁
         DontDestroyOnLoad(gameObject);
+
     }
     private void Start()
     {
+
+        GLM = gameObject.GetComponent<GamaLevelManager>();
+        LOT = Lot.GetComponent<ScoreDisplay>();
+        levelPanel.SetActive(true);
+
         ShowStartPanel();
     }
     public void ShowAchievementPanel()
@@ -70,9 +79,13 @@ public class UIManager : MonoBehaviour
         startPanel.SetActive(false);
         achievementPanel.SetActive(false);
         ingamePanel.SetActive(false);
-        levelPanel.SetActive(true);
+        
         EndPanel.SetActive(false);
-    }
+        //
+        levelPanel.SetActive(true);
+        LOT.SetScore(GLM.Opened_level);
+        
+}
     public void ShowEndPanel()
     {
         SetPanel.SetActive(false);

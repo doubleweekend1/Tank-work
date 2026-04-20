@@ -79,6 +79,7 @@
     <Compile Include="Assets\ExplosionFX.cs" />
     <Compile Include="Assets\ZZZ\Bullet_Bounce.cs" />
     <Compile Include="Assets\ZZZ\TankChassisFollow.cs" />
+    <Compile Include="Assets\Essential\CamerFollow.cs" />
     <Compile Include="Assets\UIManager.cs" />
     <Compile Include="Assets\ZZZ\ItemUnbeatable.cs" />
     <Compile Include="Assets\CameraState.cs" />
@@ -102,7 +103,6 @@
     <Compile Include="Assets\Explosion.cs" />
     <Compile Include="Assets\ZZZ\BulletPool.cs" />
     <Compile Include="Assets\ZZZ\enemyMove.cs" />
-    <Compile Include="Assets\ZZZ\CamerFollow.cs" />
     <Compile Include="Assets\GamePause.cs" />
     <Compile Include="Assets\ZZZ\ItemAddSpeed.cs" />
     <Compile Include="Assets\ZZZ\FireManager.cs" />

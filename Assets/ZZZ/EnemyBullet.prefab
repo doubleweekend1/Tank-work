@@ -167,7 +167,7 @@ MonoBehaviour:
   bounceDamping: 1
   bounceLayers:
     serializedVersion: 2
-    m_Bits: 2048
+    m_Bits: 17408
 --- !u!114 &2209837716871386500
 MonoBehaviour:
   m_ObjectHideFlags: 0
