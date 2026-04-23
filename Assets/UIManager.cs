@@ -12,7 +12,9 @@ public class UIManager : MonoBehaviour
     public GameObject EndPanel;
     public GameObject PausePanel;
     public GameObject SetPanel;
+    public GameObject NextLevelButton;
     public int lasttime;
+    public int ifwin;
     public int currentlevel;
     public GameObject Lot;
     private ScoreDisplay LOT;//Level opened Text
@@ -25,7 +27,7 @@ public class UIManager : MonoBehaviour
     }
     private void Start()
     {
-
+        NextLevelButton = GameObject.Find("NextLevel");
         GLM = gameObject.GetComponent<GamaLevelManager>();
         LOT = Lot.GetComponent<ScoreDisplay>();
         levelPanel.SetActive(true);
@@ -97,7 +99,20 @@ public class UIManager : MonoBehaviour
 
 
         EndPanel.SetActive(true);
+        GameObject.Find("ResultText")?.SetActive(true);
+        GameObject.Find("ShowGameTime")?.SetActive(true);
         GameObject.Find("ShowGameTime").GetComponent<ScoreDisplay>().SetScore(lasttime);
+        if (ifwin == 1)
+        {
+            GameObject.Find("ResultText").GetComponent<ResultText>().ShowVictory();
+            NextLevelButton.SetActive(true);
+            Debug.Log("winwinwinwin");
+        }
+        else if (ifwin == -1)
+        {
+            NextLevelButton.SetActive(false);
+            GameObject.Find("ResultText").GetComponent<ResultText>().ShowDefeat();
+        }
     }
     public void ShowSetPanel()
     {

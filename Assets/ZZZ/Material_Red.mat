@@ -31,11 +31,11 @@ Material:
     - _DstBlend: 10
     - _GlossMapScale: 0.189
     - _Glossiness: 0.32
-    - _Metallic: 0.112
+    - _Metallic: 0.96
     - _Mode: 2
     - _SmoothnessTextureChannel: 1
     - _SrcBlend: 5
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 0.8930817, g: 0.215953, b: 0.0926782, a: 0.24705882}
+    - _Color: {r: 0.8930817, g: 0.21595296, b: 0.09267815, a: 1}
   m_BuildTextureStacks: []

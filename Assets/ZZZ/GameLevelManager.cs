@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class GamaLevelManager : MonoBehaviour
 {
-    public UIManager UIM;
-    public ScoreDisplay LOT;
+    private UIManager UIM;
+    private ScoreDisplay LOT;
     // Start is called before the first frame update
     public int Opened_level = 1;
+    public int TotalLevel = 4;
     void Start()
     {
         
@@ -27,7 +28,7 @@ public class GamaLevelManager : MonoBehaviour
     // 方法2：通过场景索引跳转（数字）
     public void LoadSceneByIndex(int sceneIndex)
     {
-        if (sceneIndex <= Opened_level)
+        if (sceneIndex <= Opened_level&&sceneIndex<=TotalLevel)
         {
             
             SceneManager.LoadScene(sceneIndex);
@@ -41,7 +42,7 @@ public class GamaLevelManager : MonoBehaviour
     {
         if(Opened_level < x)
         {
-             Opened_level = x;
+             Opened_level = Mathf.Min(x,TotalLevel);
         }
         
     }

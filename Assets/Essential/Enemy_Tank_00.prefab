@@ -310,7 +310,7 @@ Transform:
   m_GameObject: {fileID: 3054584786644919748}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: -32.88009}
+  m_LocalPosition: {x: -0, y: 0, z: -65.87985}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -719,6 +719,7 @@ GameObject:
   - component: {fileID: 3799809038481763744}
   - component: {fileID: 1872598126948989999}
   - component: {fileID: 6492134878089576328}
+  - component: {fileID: 3556950520303738290}
   m_Layer: 13
   m_Name: Enemy_Tank_00
   m_TagString: Enemy
@@ -822,6 +823,8 @@ MonoBehaviour:
   detectionRange: 3
   wanderRange: 3
   triggerDistance: 2
+  SepRange: 1
+  separationForce: 10
 --- !u!114 &5513004305279252128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -839,10 +842,10 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 2048
-  firePoint: {fileID: 1856449791288349837}
   fireRate: 1
   bulletSpeed: 20
   turret: {fileID: 4655413942669837859}
+  ForwardDirection: 0
   currentFireType: 1
   EtankFire1: {fileID: 2830853541524246950}
   EtankFire2: {fileID: 8424993712461714543}
@@ -1022,6 +1025,27 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
+--- !u!114 &3556950520303738290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7560070183291881751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ec14aa809ec2e24bb30e602a53d4e15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useExistingCanvas: 0
+  targetCanvas: {fileID: 0}
+  offset: {x: 0, y: 1.5, z: 0}
+  hideDelay: 3
+  smoothSpeed: 5
+  barSize: {x: 2, y: 0.3}
+  fullHealthColor: {r: 0, g: 1, b: 0, a: 1}
+  lowHealthColor: {r: 1, g: 0, b: 0, a: 1}
+  barObj: {fileID: 0}
 --- !u!1 &8087350494512974324
 GameObject:
   m_ObjectHideFlags: 0

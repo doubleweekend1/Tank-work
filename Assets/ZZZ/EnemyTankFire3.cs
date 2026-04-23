@@ -23,7 +23,7 @@ public class EnemyTankFire3 : MonoBehaviour
     {
         // 在坦克位置生成声波
         GameObject wave = Instantiate(sonicWavePrefab, transform.position, Quaternion.Euler(0, 0, 0));//Quaternion.identity
-
+        Debug.Log("firewave");
         // 设置移动参数
         Wave projectile = wave.GetComponent<Wave>();
         projectile.TargetTag = "Player";

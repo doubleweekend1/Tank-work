@@ -29,9 +29,10 @@ Material:
     m_Floats:
     - _DstBlend: 10
     - _Glossiness: 0.603
+    - _Metallic: 0.35
     - _Mode: 2
     - _SrcBlend: 5
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 0.08419358, g: 0.11544461, b: 0.8113208, a: 0.654902}
+    - _Color: {r: 0.084193535, g: 0.11544458, b: 0.8113207, a: 1}
   m_BuildTextureStacks: []

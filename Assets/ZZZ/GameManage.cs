@@ -44,9 +44,9 @@ public class GameManage : MonoBehaviour
             UIManager UIM = GameObject.Find("Canvas").GetComponent<UIManager>();
             ACM.Maxlevel = Mathf.Max( level, ACM.Maxlevel);
             GameObject.Find("Canvas").GetComponent<GamaLevelManager>().unlockLevel(level+1);//GameLevelManager
-            Debug.Log((level + 1 + 100000));
             ACM.ShortestTime = Mathf.Min(ACM.ShortestTime, (int)duration);
             UIM.lasttime = (int)duration;
+            UIM.ifwin = 1;
             Application.targetFrameRate = 60;
             SceneManager.LoadScene("SceneUI");
             UIM.ShowEndPanel();
@@ -59,6 +59,7 @@ public class GameManage : MonoBehaviour
             ACM.ShortestTime = Mathf.Min(ACM.ShortestTime, (int)duration);
             ACM.FirstDie = 1;
             UIM.lasttime = (int)duration;
+            UIM.ifwin = -1;
             Application.targetFrameRate = 60;
             SceneManager.LoadScene("SceneUI");
             UIM.ShowEndPanel();

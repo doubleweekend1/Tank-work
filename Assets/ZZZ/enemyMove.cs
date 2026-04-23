@@ -8,6 +8,10 @@ public class enemyMove : MonoBehaviour
     public float detectionRange = 10f;
     public float wanderRange = 3f;
     public float triggerDistance = 2f;
+
+    public float SepRange = 3f;  // 避让触发距离
+    public float separationForce = 10f;  // 避让力度系数
+
     private Rigidbody rb;
     private Transform player;
     private Vector3 wanderTarget;
@@ -67,10 +71,41 @@ public class enemyMove : MonoBehaviour
         // 消除朝向玩家的速度分量
             rb.velocity -= toPlayer * speedTowardPlayer;
          }
-        Vector3 toOther;
+
+
+
+        // 避让其他敌人
+        Vector3 separationVelocity = Vector3.zero;
+        int nearbyEnemies = 0;
+        Debug.Log(enemyList.Count);
         foreach (GameObject enemy in enemyList)
         {
-            
+            if (enemy == this.gameObject) continue;  // 跳过自己
+            if (enemy == null) continue;
+            Vector3 toOther = transform.position - enemy.transform.position;
+            float Edistance = toOther.magnitude;
+
+            if (distance < SepRange)
+            {
+                // 距离越近，避让力度越大
+                float strength = (SepRange - Edistance) / SepRange;  // 0-1之间的系数，越近越大
+                Vector3 avoidDirection = toOther.normalized * strength * separationForce;
+                separationVelocity += avoidDirection;
+                nearbyEnemies++;
+            }
+        }
+        Debug.Log(nearbyEnemies);
+        if (nearbyEnemies > 0)
+        {
+            Debug.Log(separationForce.ToString());/////////////////////////////////////
+            separationVelocity /= nearbyEnemies;  // 取平均
+            rb.velocity += separationVelocity;
+
+            // 限制最大速度，避免过快
+            if (rb.velocity.magnitude > moveSpeed * 1.5f)
+            {
+                rb.velocity = rb.velocity.normalized * moveSpeed * 1.5f;
+            }
         }
 
 

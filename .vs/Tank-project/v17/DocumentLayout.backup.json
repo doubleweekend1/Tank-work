@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|c:\\users\\30239\\desktop\\save_unity\\tank-project\\assets\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|c:\\users\\30239\\desktop\\save_unity\\tank-project\\assets\\zzz\\enemybulletbounce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\zzz\\enemybulletbounce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|c:\\users\\30239\\desktop\\save_unity\\tank-project\\assets\\zzz\\gamemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\zzz\\gamemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|c:\\users\\30239\\desktop\\save_unity\\tank-project\\assets\\zzz\\bullet_bounce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\zzz\\bullet_bounce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|c:\\users\\30239\\desktop\\save_unity\\tank-project\\assets\\zzz\\gamelevelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|c:\\users\\30239\\desktop\\save_unity\\tank-project\\assets\\zzz\\bulletcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\zzz\\bulletcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|c:\\users\\30239\\desktop\\save_unity\\tank-project\\assets\\zzz\\bulletattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\zzz\\bulletattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|c:\\users\\30239\\desktop\\save_unity\\tank-project\\assets\\replay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\replay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|c:\\users\\30239\\desktop\\save_unity\\tank-project\\assets\\nextlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\nextlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\assets\\zzz\\gamelevelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\zzz\\gamelevelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|c:\\users\\30239\\desktop\\save_unity\\tank-project\\assets\\camerastate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\camerastate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\assets\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\assets\\zzz\\flexible_wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\zzz\\flexible_wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\assets\\directlyexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\directlyexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\assets\\zzz\\hp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\zzz\\hp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\assets\\explosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\explosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\assets\\zzz\\gamemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C9DB7F-5FF6-1754-F3CA-94910176DD2A}|Assembly-CSharp.csproj|solutionrelative:assets\\zzz\\gamemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +50,133 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CameraState.cs",
-              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\CameraState.cs",
-              "RelativeDocumentMoniker": "Assets\\CameraState.cs",
-              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\CameraState.cs",
-              "RelativeToolTip": "Assets\\CameraState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T13:11:17.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UIManager.cs",
-              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\UIManager.cs",
-              "RelativeDocumentMoniker": "Assets\\UIManager.cs",
-              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\UIManager.cs",
-              "RelativeToolTip": "Assets\\UIManager.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
+              "Title": "EnemyBulletBounce.cs",
+              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\ZZZ\\EnemyBulletBounce.cs",
+              "RelativeDocumentMoniker": "Assets\\ZZZ\\EnemyBulletBounce.cs",
+              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\ZZZ\\EnemyBulletBounce.cs",
+              "RelativeToolTip": "Assets\\ZZZ\\EnemyBulletBounce.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T12:59:26.6Z",
+              "WhenOpened": "2026-04-23T06:18:26.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameManage.cs",
-              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\ZZZ\\GameManage.cs",
-              "RelativeDocumentMoniker": "Assets\\ZZZ\\GameManage.cs",
-              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\ZZZ\\GameManage.cs",
-              "RelativeToolTip": "Assets\\ZZZ\\GameManage.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwC4AAAAsAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "BulletAttack.cs",
+              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\ZZZ\\BulletAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\ZZZ\\BulletAttack.cs",
+              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\ZZZ\\BulletAttack.cs",
+              "RelativeToolTip": "Assets\\ZZZ\\BulletAttack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T12:48:38.365Z",
+              "WhenOpened": "2026-04-23T06:14:49.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BulletControl.cs",
+              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\ZZZ\\BulletControl.cs",
+              "RelativeDocumentMoniker": "Assets\\ZZZ\\BulletControl.cs",
+              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\ZZZ\\BulletControl.cs",
+              "RelativeToolTip": "Assets\\ZZZ\\BulletControl.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T06:14:40.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bullet_Bounce.cs",
+              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\ZZZ\\Bullet_Bounce.cs",
+              "RelativeDocumentMoniker": "Assets\\ZZZ\\Bullet_Bounce.cs",
+              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\ZZZ\\Bullet_Bounce.cs",
+              "RelativeToolTip": "Assets\\ZZZ\\Bullet_Bounce.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T06:13:58.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Replay.cs",
+              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\Replay.cs",
+              "RelativeDocumentMoniker": "Assets\\Replay.cs",
+              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\Replay.cs",
+              "RelativeToolTip": "Assets\\Replay.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T06:04:19.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DirectlyExit.cs",
+              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\DirectlyExit.cs",
+              "RelativeDocumentMoniker": "Assets\\DirectlyExit.cs",
+              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\DirectlyExit.cs",
+              "RelativeToolTip": "Assets\\DirectlyExit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T05:57:48.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GameLevelManager.cs",
               "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\ZZZ\\GameLevelManager.cs",
               "RelativeDocumentMoniker": "Assets\\ZZZ\\GameLevelManager.cs",
               "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\ZZZ\\GameLevelManager.cs",
               "RelativeToolTip": "Assets\\ZZZ\\GameLevelManager.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwAkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T12:45:32.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T05:37:27.049Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "HP.cs",
-              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\ZZZ\\HP.cs",
-              "RelativeDocumentMoniker": "Assets\\ZZZ\\HP.cs",
-              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\ZZZ\\HP.cs",
-              "RelativeToolTip": "Assets\\ZZZ\\HP.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAxwFoAAABBAAAAAAAAAA==",
+              "Title": "NextLevel.cs",
+              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\NextLevel.cs",
+              "RelativeDocumentMoniker": "Assets\\NextLevel.cs",
+              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\NextLevel.cs",
+              "RelativeToolTip": "Assets\\NextLevel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T10:26:03.138Z",
+              "WhenOpened": "2026-04-23T05:36:08.835Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Explosion.cs",
-              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\Explosion.cs",
-              "RelativeDocumentMoniker": "Assets\\Explosion.cs",
-              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\Explosion.cs",
-              "RelativeToolTip": "Assets\\Explosion.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAgAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\UIManager.cs",
+              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\UIManager.cs",
+              "RelativeToolTip": "Assets\\UIManager.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwGoAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T10:24:13.982Z"
+              "WhenOpened": "2026-04-23T05:34:15.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "flexible_wall.cs",
-              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\ZZZ\\flexible_wall.cs",
-              "RelativeDocumentMoniker": "Assets\\ZZZ\\flexible_wall.cs",
-              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\ZZZ\\flexible_wall.cs",
-              "RelativeToolTip": "Assets\\ZZZ\\flexible_wall.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "GameManage.cs",
+              "DocumentMoniker": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\ZZZ\\GameManage.cs",
+              "RelativeDocumentMoniker": "Assets\\ZZZ\\GameManage.cs",
+              "ToolTip": "C:\\Users\\30239\\Desktop\\save_unity\\Tank-project\\Assets\\ZZZ\\GameManage.cs",
+              "RelativeToolTip": "Assets\\ZZZ\\GameManage.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAtwC0AAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T10:03:22.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T05:16:08.475Z"
             }
           ]
         }

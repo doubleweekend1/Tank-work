@@ -41,7 +41,7 @@ public class Wave : MonoBehaviour
             boxCol.size = new Vector3(colliderWidth, colliderHeight, 0.1f);
         }
         // 默认向前移动，你可以改成任意方向
-        Vector3 mouseScreenPos = Input.mousePosition;
+        /*Vector3 mouseScreenPos = Input.mousePosition;
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(new Vector3(mouseScreenPos.x, mouseScreenPos.y, 10f));
         mouseWorldPos.y = transform.position.y;  // 强制水平
         if(TargetTag=="Enemy")
@@ -52,7 +52,35 @@ public class Wave : MonoBehaviour
         }
 
             float angle = Mathf.Atan2(moveDirection.x, moveDirection.z) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, angle, 0);
+        transform.rotation = Quaternion.Euler(0, angle, 0);*/
+
+        Vector3 mouseScreenPos = Input.mousePosition;
+        Ray ray = Camera.main.ScreenPointToRay(mouseScreenPos);
+
+        if (Physics.Raycast(ray, out RaycastHit hit))
+        {
+            Vector3 mouseWorldPos = hit.point;
+            mouseWorldPos.y = transform.position.y;  // 强制水平
+
+            if (TargetTag == "Enemy")
+                moveDirection = (mouseWorldPos - transform.position).normalized;
+            else if (TargetTag == "player" || true)
+            {
+                moveDirection = (GameObject.FindGameObjectWithTag("Player").transform.position - transform.position).normalized;
+            }
+
+            float angle = Mathf.Atan2(moveDirection.x, moveDirection.z) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0, angle, 0);
+        }
+
+
+
+
+
+
+
+
+
 
         originalScale = transform.localScale;
         Destroy(gameObject, lifetime);

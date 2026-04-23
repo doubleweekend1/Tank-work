@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class flexible_wall : MonoBehaviour
@@ -13,6 +14,10 @@ public class flexible_wall : MonoBehaviour
     [Header("恢复等待时间(秒)")]
     public float recoverDelay = 5f;
 
+    public float detectsizex = 5;
+    public float detectsizez = 5;
+    public float detectdx;
+    public float detectdz;
     private Vector3 originalPos;
     private Vector3 hiddenPos;
     private bool isActive = true;
@@ -114,12 +119,15 @@ public class flexible_wall : MonoBehaviour
 
         // 扩大检测范围（例如：宽度和深度各扩大0.5倍）
         Vector3 checkSize = new Vector3(
-            wallCollider.size.x * 1.5f,  // 宽度扩大1.5倍
+            wallCollider.size.x * detectsizex,  // 
             5,                         // 厚度
-            wallCollider.size.z * 1.5f   // 深度扩大1.5倍
+            wallCollider.size.z * detectsizez   // 
         );
 
-        Vector3 checkPosition = transform.position + Vector3.up * (wallCollider.size.y / 2);
+        //Vector3 checkPosition = transform.position + Vector3.up * (wallCollider.size.y / 2);
+        Vector3 colliderCenter = transform.position + wallCollider.center;
+        Vector3 deltaV = new Vector3(detectdx, 0, detectdz);
+        Vector3 checkPosition = colliderCenter + Vector3.up * (wallCollider.size.y / 2)+deltaV;
 
         Collider[] hitColliders = Physics.OverlapBox(checkPosition, checkSize / 2, Quaternion.identity);
 
@@ -131,5 +139,32 @@ public class flexible_wall : MonoBehaviour
             }
         }
         return false;
+    }
+    void OnDrawGizmos()
+    {
+        BoxCollider wallCollider = GetComponent<BoxCollider>();
+        if (wallCollider == null) return;
+
+        Vector3 checkSize = new Vector3(
+            wallCollider.size.x * detectsizex,
+            5,
+            wallCollider.size.z * detectsizez
+        );
+
+        // Vector3 checkPosition = transform.position + Vector3.up * (wallCollider.size.y / 2);
+        Vector3 colliderCenter = transform.position + wallCollider.center;
+        Vector3 deltaV = new Vector3(detectdx, 0, detectdz);
+        Vector3 checkPosition = colliderCenter + Vector3.up * (wallCollider.size.y / 2) + deltaV;
+        // 半透明红色立方体显示检测区域
+        Gizmos.color = new Color(1, 0, 0, 0.5f);
+        Gizmos.DrawCube(checkPosition, checkSize);
+
+        // 黄色线框
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireCube(checkPosition, checkSize);
+
+        // 中心点标记
+        Gizmos.color = Color.green;
+        Gizmos.DrawSphere(checkPosition, 0.1f);
     }
 }

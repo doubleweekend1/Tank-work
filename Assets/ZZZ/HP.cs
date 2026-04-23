@@ -60,6 +60,11 @@ public class HP : MonoBehaviour
         currentHealth -= damage;
         currentHealth = Mathf.Max(currentHealth, 0);
 
+        HealthBar healthBar = GetComponent<HealthBar>();
+        if (healthBar != null)
+        {
+            healthBar.NotifyDamageTaken();
+        }
         if (currentHealth <= 0)
         {
             Die();

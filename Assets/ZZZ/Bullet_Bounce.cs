@@ -8,7 +8,7 @@ public class BulletBounce : MonoBehaviour
     private int currentBounceCount = 0;
     [Header("子弹参数")]
     public float speed = 10f;
-
+    public float leastspeed=8;
     [Header("反弹参数")]
     public float bounceDamping = 1f;  // 1 = 完美反弹，0.9 = 损失10%能量
     public LayerMask bounceLayers;     // 可反弹的层（在Inspector中设置）
@@ -22,9 +22,9 @@ public class BulletBounce : MonoBehaviour
         Debug.Log(maxBounceCount);
         rb = GetComponent<Rigidbody>();
         lastVelocity = rb.velocity;
-
+        currentBounceCount = 0;
         //rb.velocity = transform.forward * speed;
-
+        rb.constraints = RigidbodyConstraints.FreezeRotation;
         // 记录初始速度
         lastVelocity = rb.velocity;
         // 设置子弹的碰撞检测
@@ -32,12 +32,24 @@ public class BulletBounce : MonoBehaviour
 
         // 设置子弹的Layer（可选）
         gameObject.layer = LayerMask.NameToLayer("Bullet");
+        UpdateRotationByVelocity();
     }
-
+    void UpdateRotationByVelocity()
+    {
+        if (rb.velocity.magnitude > 0.01f)
+        {
+            transform.forward = rb.velocity.normalized;
+        }
+    }
     void FixedUpdate()
     {
         // 记录上一帧的速度（用于反弹计算）
         lastVelocity = rb.velocity;
+        if (lastVelocity.sqrMagnitude < leastspeed*leastspeed)
+        {
+            FindObjectOfType<BulletPool>().ReturnBullet(gameObject);
+        }
+        UpdateRotationByVelocity();
     }
 
     void OnCollisionEnter(Collision collision)
@@ -51,9 +63,8 @@ public class BulletBounce : MonoBehaviour
                 return;
             }
             currentBounceCount++;
-            Debug.Log("bounce+1");
             inbounce = 1;
-            Invoke("canbounce",0.05f);
+            Invoke("canbounce",0.02f);
             // 超过最大次数 → 销毁子弹
             if (currentBounceCount > maxBounceCount)
             {
@@ -68,6 +79,7 @@ public class BulletBounce : MonoBehaviour
             // 更新记录的速度和速率
             lastVelocity = rb.velocity;
             speed = rb.velocity.magnitude;
+            UpdateRotationByVelocity();
         }
     }
     // 检查是否为反弹层FindObjectOfType<BulletPool>().ReturnBullet(gameObject);

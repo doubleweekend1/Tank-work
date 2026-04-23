@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae9f088c89fb69f499c8bb38b845bc8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 7453525556181572995, guid: c6ffec8d24b189a4e96602b6c0573237, type: 3}
+  bulletPrefab: {fileID: 8437222349082496427, guid: f836ed100189c8245ad3957f4ca4df8e, type: 3}
   poolSize: 20
 --- !u!114 &7075416556695364085
 MonoBehaviour:
@@ -59,5 +59,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59f984c77a4eeff44be2aa6de17e6887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 671511140666854453, guid: d7e4bad0cb7f594499d20ffc19988c54, type: 3}
+  bulletPrefab: {fileID: 7369661446644680587, guid: fa20c43c495fa57498fc7b422196ac14, type: 3}
   poolSize: 20

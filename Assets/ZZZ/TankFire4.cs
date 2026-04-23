@@ -13,9 +13,17 @@ public class TankFire4 : MonoBehaviour
     // 关键修改：指定炮口位置（作为子物体引用）
     public Transform firePoint;          // 激光发射点（炮口位置）
     public Transform turretTransform;    // 炮塔的Transform（用于获取射击方向）
+    public GameObject GOLinerederer;
+    private LineRenderer lineRenderer;    // 激光美术效果组件
 
-    public LineRenderer lineRenderer;    // 激光美术效果组件
-
+    private void Start()
+    {
+        if (GOLinerederer != null)
+        {
+            lineRenderer = GOLinerederer.GetComponent<LineRenderer>();
+            GOLinerederer.SetActive(false);
+        }
+    }
     public void Fire()
     {
 
@@ -25,6 +33,11 @@ public class TankFire4 : MonoBehaviour
 
     void ShootLaser()
     {
+        // 新增：激活激光视觉
+        if (GOLinerederer != null)
+        {
+            GOLinerederer.SetActive(true);
+        }
         if (firePoint == null)
         {
             Debug.LogError("LaserShoot: 未指定 firePoint（炮口位置）！");
@@ -93,8 +106,21 @@ public class TankFire4 : MonoBehaviour
         }
         // 6. 更新美术效果 (LineRenderer)
         UpdateLaserVisual(laserEndDistance, shootDirection);
-    }
 
+
+        // 新增：自动隐藏激光
+        StartCoroutine(HideLaserAfterDelay(0.1f));
+    }
+    // 新增：自动隐藏激光的协程
+    IEnumerator HideLaserAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        if (GOLinerederer != null)
+        {
+            GOLinerederer.SetActive(false);
+        }
+    }
     void UpdateLaserVisual(float distance, Vector3 direction)
     {
         if (lineRenderer == null) return;

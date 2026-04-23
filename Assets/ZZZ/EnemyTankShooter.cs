@@ -17,13 +17,19 @@ public class EnemyTankShooter : MonoBehaviour
     public LayerMask playerLayer;        // 玩家所在层
 
     [Header("射击设置")]
-    public Transform firePoint;           // 子弹发射点（炮口位置）
+    //public Transform firePoint;           // 子弹发射点（炮口位置）
     public float fireRate = 1f;           // 每秒发射次数
     public float bulletSpeed = 20f;
 
     [Header("炮塔设置")]
     public Transform turret;              // 炮塔Transform（拖拽赋值）
+    public enum AlignAxis
+    {
+        Z,  // Z轴正方向
+        X     // X轴正方向
+    }
 
+    public AlignAxis ForwardDirection = AlignAxis.Z;
     [Header("当前开火模式")]
     public EnemyFireType currentFireType;
 
@@ -85,34 +91,17 @@ public class EnemyTankShooter : MonoBehaviour
         {
             // 直接设置炮塔朝向目标方向（瞬时）
             Quaternion targetRotation = Quaternion.LookRotation(directionToPlayer);
+            if (ForwardDirection == AlignAxis.X)
+            {
+                targetRotation=targetRotation * Quaternion.Euler(0, -90, 0);
+            }
             turret.rotation = targetRotation;
         }
     }
 
-    /*void ShootAtPlayer()
-    {
-        if (Time.time < nextFireTime) return;
-        if (firePoint == null || bulletPrefab == null) return;
-
-        nextFireTime = Time.time + (1f / fireRate);
-
-        // 生成子弹
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-
-        // 给子弹添加速度
-        Rigidbody rb = bullet.GetComponent<Rigidbody>();
-        if (rb != null)
-        {
-            rb.velocity = firePoint.forward * bulletSpeed;
-        }
-
-        // 自动销毁子弹
-        Destroy(bullet, 5f);
-    }*/
     void FireByCurrentType()
     {
         if (Time.time < nextFireTime) return;
-        if (firePoint == null ) return;
 
         nextFireTime = Time.time + (1f / fireRate);
         switch (currentFireType)

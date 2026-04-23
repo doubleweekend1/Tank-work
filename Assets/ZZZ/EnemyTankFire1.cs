@@ -31,8 +31,11 @@ public class EnemyTankFire1 : MonoBehaviour
         {
             rb.velocity = firePoint.forward * bulletSpeed;
         }
-
-        turret.DoRecoil();
+        if (turret != null)
+        {
+            turret.DoRecoil();
+        }
+        
         // 3ÃëºóÏú»Ù£¬·ÀÖ¹ÄÚ´æ¿¨ËÀ
         //Destroy(bullet, 50f);
         //bulletPool.ReturnBullet(bullet);
